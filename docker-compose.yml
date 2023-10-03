@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  test:
+    image: httpd:alpine
+    ports:
+      - "7000:80"
